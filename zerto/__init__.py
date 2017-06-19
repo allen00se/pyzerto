@@ -163,7 +163,7 @@ class Zerto(object):
                 '{0}:{1}'.format(user, password))
         }
         session = None
-        path = 'v1/session/add'
+        path = 'v1/session/Add'
         if method is not None and not isinstance(method, AuthenticationMethod):
             try:
                 method = authentication_method[method]
